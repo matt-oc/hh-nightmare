@@ -19,10 +19,10 @@ var area1 = new Nightmare()
 .wait(1000)
 .click('#getQuotesButton')
 .wait(10000)
-.screenshot( 'images/area1/'+ new Date().toISOString() + '-WD11AA.png')
+.screenshot( 'images/moneysupermarket/area1/'+ new Date().toISOString() + '-WD11AA.png')
 .run(function (err, nightmare) {
   if (err) return console.log(err);
-  console.log('Area 1 done!');
+  console.log('MS Area 1 done!');
 });
 
 var area2 = new Nightmare()
@@ -44,10 +44,10 @@ var area2 = new Nightmare()
 .wait(1000)
 .click('#getQuotesButton')
 .wait(10000)
-.screenshot( 'images/area2/'+ new Date().toISOString() + '-IP15EE.png')
+.screenshot( 'images/moneysupermarket/area2/'+ new Date().toISOString() + '-IP15EE.png')
 .run(function (err, nightmare) {
   if (err) return console.log(err);
-  console.log('Area 2 done!');
+  console.log('MS Area 2 done!');
 });
 
 var area3 = new Nightmare()
@@ -69,9 +69,9 @@ var area3 = new Nightmare()
 .wait(1000)
 .click('#getQuotesButton')
 .wait(10000)
-.screenshot( 'images/area3/'+ new Date().toISOString() + '-RH110AD.png')
+.screenshot( 'images/moneysupermarket/area3/'+ new Date().toISOString() + '-RH110AD.png')
 .run(function (err, nightmare) {
   if (err) return console.log(err);
-  console.log('Area 3 done!');
+  console.log('MS Area 3 done!');
   process.exit();
 });
