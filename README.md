@@ -1,6 +1,6 @@
 # hh form autocomplete
 
-This module exports 2 functions:
+This module exports 2 functions from ctm.js and ms.js:
 
 ```javascript
 moneySupermarket()
